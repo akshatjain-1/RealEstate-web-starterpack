@@ -67,19 +67,48 @@ a {
 }
 
 .primaryText {
-  color: #1f3e72;
+  color: rgb(228, 143, 69);
   font-weight: bold;
   font-size: 2rem;
 }
 
 .secondaryText {
-  color: rgb(140 139 139);
+  color: rgb(57, 245, 10);
   font-size: 0.9rem;
 }
 .orangeText {
   color: orange;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.myText{
+  color:rgb(30, 32, 30);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.myText2{
+  color:rgb(60, 61, 55);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.button{
+  font-weight: 500;
+  padding: 0.6rem 1.4rem ;
+  color: white;
+  background: rgb(228, 143, 69);
+  border:none;
+
+  border-radius: 4px;
+  transition:all 300ms ease-in;
+}
+
+.button:hover{
+  cursor: pointer;
+  transform:scale(1.1);
+  box-shadow: #eee8e4;
 }
 
 /* media queries */

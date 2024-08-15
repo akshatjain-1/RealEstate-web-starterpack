@@ -1,0 +1,68 @@
+.h-wrapper{
+    background: var(--black);
+    color: rgb(107, 36, 12);
+    z-index: 99;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 12, 12);
+    font-weight: 600;
+    
+}
+
+.h-menu{
+    gap: 2rem;
+    z-index: 1;
+    
+}
+
+
+
+.h1{
+    font-size:200rem;
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+.h-menu>*:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.menu-icon{
+    display: none; 
+    color: blue;
+}
+
+@media (max-width : 788px){
+    .menu-icon{
+        display: flex;
+        z-index:1;
+    }
+    .h-menu{
+        color: var(--black);
+        position: absolute;
+        top: 3rem;
+        right: 1.5rem;
+        background: white;
+        flex-direction: column;
+        font-weight: 500;
+        gap: 2rem;
+        padding: 2%;
+        border-radius: 8px;
+        align-items: flex-start;
+        box-shadow: 0px 5px 5px rgba(1,1,1,0.1);
+        transition: all 700ms ease-in ;
+        z-index: 2;
+    }
+}

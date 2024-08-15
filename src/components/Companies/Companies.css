@@ -1,0 +1,15 @@
+.c-container{
+    justify-content: space-around;
+    gap: 1rem;
+
+}
+
+.c-container>img{
+    width: 8rem;
+}
+
+.c-wrapper{
+    background-color: rgb(107, 36, 12);
+    line-height: 1rem;
+    font-size: 1rem;
+}
