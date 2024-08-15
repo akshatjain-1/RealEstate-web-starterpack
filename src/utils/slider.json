@@ -1,27 +1,27 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Jeans",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "image": "./jeans.jpg"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Kurti",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "image": "./pic2.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Uppers",
     "price": "35,853",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "image": "./zara.jpg"
   },
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Sweatshirts",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "image": "./tommy.jpg"
   },
   {
     "name": "Asatti Garden City",

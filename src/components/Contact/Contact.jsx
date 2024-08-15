@@ -90,7 +90,7 @@ const Contact = () => {
             <div className='flexColStart c-right'>
 
                 <div className='image-container'>
-                    <img src='./contact.jpg' alt='contact'/>
+                    <img src='./img2.jpg' alt='contact'/>
                 </div>
                
                 

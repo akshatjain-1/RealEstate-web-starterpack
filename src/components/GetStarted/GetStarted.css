@@ -1,5 +1,5 @@
 .g-wrapper{
-    background-color: rgb(245, 204, 160);
+    background-color: rgb(255, 145, 0);
 }
 
 .inner-container{
@@ -7,7 +7,7 @@
     background: rgb(153, 77, 28);
     padding:  2rem;
     border-radius: 10px;
-    border: 6px solid #5d77d6;
+    border: 6px solid rgb(107, 36, 12);
     text-align: center;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .inner-container .button{
-    background: #5a73d7 ;
+    background: #860a0a ;
     border : 2px solid white;
     box-shadow: var(--shadow);
     border-radius: 10px;

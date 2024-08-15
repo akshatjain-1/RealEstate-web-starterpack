@@ -22,7 +22,7 @@ const Value = () => {
             <div className='flexColStart v-left'>
 
                 <div className='image-container'>
-                    <img src='./value.png' alt='value'/>
+                    <img src='./img3.jpg' alt='value'/>
                 </div>
             </div>
 

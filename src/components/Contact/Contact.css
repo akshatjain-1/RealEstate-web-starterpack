@@ -1,3 +1,11 @@
+.c-wrapper{
+    background-color: rgb(245, 204, 160);
+    line-height: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    color: var(--white);
+}
+
 .c-contaioner{
     justify-content: space-between;
 

@@ -5,7 +5,8 @@
 }
 
 .c-container>img{
-    width: 8rem;
+    width: 15rem;
+    justify-content: space-between\;
 }
 
 .c-wrapper{
