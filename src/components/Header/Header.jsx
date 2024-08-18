@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Header.css'
 import {BiMenuAltRight} from 'react-icons/bi';
 import OutsideClickHandler from 'react-outside-click-handler';
+import { Link } from 'react-router-dom'; // Modified code
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false)
 
@@ -26,7 +27,7 @@ const Header = () => {
 
 
             <div className='flexCenter h-menu'
-            style={getMenuStyles(menuOpened)}
+            style={getMenuStyles(menuOpened)} 
             >
                 <a href='#'>
                 Home
