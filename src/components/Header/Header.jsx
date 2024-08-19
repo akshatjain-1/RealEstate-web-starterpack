@@ -36,7 +36,7 @@ const Header = () => {
 
                 <a href='#'>Services</a>
                 <button className='button'>
-                <a href='#'>Contact</a>
+                <a href=''>Contact</a>
                 </button>
             </div>
             </OutsideClickHandler>

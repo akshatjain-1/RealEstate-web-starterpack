@@ -1,5 +1,5 @@
 .h-wrapper{
-    background: var(--black);
+    background: rgb(107, 36, 12);
     color: rgb(107, 36, 12);
     z-index: 99;
 }
@@ -8,9 +8,16 @@
     justify-content: space-between;
     padding-top: 1rem ;
     padding-bottom: 1rem;
-    color: rgb(255, 255, 255);
-    background-color: rgb(29, 12, 12);
+    color: rgb(220, 122, 42);
+    background-color: rgb(107, 36, 12);
     font-weight: 600;
+    
+}
+
+.h-container>img{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
     
 }
 
@@ -41,7 +48,7 @@
 
 .menu-icon{
     display: none; 
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width : 788px){

@@ -3,9 +3,7 @@
     overflow-x: clip;
 }
 
-.App>:nth-child(1){
-    background-color: var(--black);
-}
+
 .white-gradient{
     position:absolute;
     width: 100rem;

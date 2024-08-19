@@ -1,0 +1,73 @@
+/* PrivacyPolicy.css */
+.privacy-page {
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+  }
+  
+  .privacy-page.light {
+    background-color: #f9f9f9;
+  }
+  
+  .privacy-page.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .theme-toggle {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-toggle:hover {
+    background-color: #0056b3;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card.dark {
+    background-color: #444;
+    border-color: #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card h1 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin: 2px;
+    margin-bottom: 3px;
+    padding-bottom: 2%;
+  }
