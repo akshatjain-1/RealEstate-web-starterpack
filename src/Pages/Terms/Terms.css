@@ -1,0 +1,39 @@
+.terms-page{
+  background-color:rgba(159, 72, 38, 0.708);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terms-page h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.terms-page p{
+    margin-bottom: 20px;
+
+}
+
+.terms-page a{
+    color: black;
+    text-decoration: underline;
+}
+
+.terms-page h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.logo2{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}

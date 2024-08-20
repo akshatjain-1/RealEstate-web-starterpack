@@ -30,13 +30,13 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #fcb660;
     color: #fff;
     transition: background-color 0.3s ease;
   }
   
   .theme-toggle:hover {
-    background-color: #0056b3;
+    background-color: #eeaf3a;
   }
   
   .content {
@@ -48,12 +48,13 @@
   }
   
   .card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #CE8147;
+    border: 1px solid #c92424;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+     box-shadow: 0 8px 8px rgb(0, 0, 0);
   }
   
   .card.dark {

@@ -6,6 +6,16 @@ import data from '../../utils/slider.json'
 import { sliderSettings } from '../../utils/common'
 
 const Products = () => {
+
+    const SliderButtons = () => {
+        const swiper = useSwiper();
+        return (
+            <div className='flexCenter p-buttons'>
+                <button onClick={() => swiper.slidePrev()}>&lt;</button>
+                <button onClick={() => swiper.slideNext()}>&gt;</button>
+            </div>
+        )
+    }
   return (
     <section className='p-wrapper'>
         <div className='flexCenter paddings innerWidth p-container'>
@@ -19,6 +29,7 @@ const Products = () => {
                     data.map((card,i) => (
                         <SwiperSlide key={i}>
                             <div className='flexColStart p-card'>
+                                
                                     <img src={card.image} alt='product'/>
 
                                     <span className='primaryText'>{card.name}</span>
@@ -38,12 +49,3 @@ const Products = () => {
 
 export default Products
 
-const SliderButtons = () => {
-    const swiper = useSwiper();
-    return (
-        <div className='flexCenter p-buttons'>
-            <button onClick={() => swiper.slidePrev()}>&lt;</button>
-            <button onClick={() => swiper.slideNext()}>&gt;</button>
-        </div>
-    )
-}

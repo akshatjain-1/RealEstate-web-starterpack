@@ -1,9 +1,12 @@
 import React from 'react';
 import './Terms.css'; // Import the CSS file
+import Header from '../../components/Header/Header';
 
 const Terms = () => {
     return (
+        
         <div className="terms-page">
+        <img src='logo1.png' alt='logo' className='logo2'/>
             <div className="terms-container">
                 <h1>Terms of Service</h1>
                 <p>Welcome to our website. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions:</p>
@@ -34,6 +37,8 @@ const Terms = () => {
 
                 <h2>7. Governing Law</h2>
                 <p>These terms and conditions shall be governed by and construed in accordance with the laws of your jurisdiction.</p>
+
+                <h3> <p>&copy; 2024 JUST SHOP. All rights reserved.</p></h3>
                 
                 {/* Add more sections as needed */}
             </div>

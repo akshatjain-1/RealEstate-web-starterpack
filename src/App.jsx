@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer';
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 import Terms from './Pages/Terms/Terms';
 import './App.css';
+import ContactUs from './Pages/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <>
               <Header />
               <Hero />
-              <Companies />
+              
               <Products />
               <Value />
               <GetStarted />
@@ -32,6 +33,7 @@ function App() {
           
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<Terms />} />
+          <Route path = "/contact-us" element = {<ContactUs/>} />
         </Routes>
         
       </div>
