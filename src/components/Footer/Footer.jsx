@@ -11,7 +11,7 @@ const Footer = () => {
           <div className='flexCenter f-socials'>
             <h2> Follow Us</h2>
             <div className='f-links'>
-              <a href='#'> Fcebook<img src='facebook_logo.png' alt='Facebook' /></a>
+              <a href='#'> Facebook<img src='facebook_logo.png' alt='Facebook' /></a>
               <a href='#'>Instagram<img src='instagram_logo.png' alt='Instagram' /></a>
             </div>
             
