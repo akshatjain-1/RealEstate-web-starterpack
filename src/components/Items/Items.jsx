@@ -2,8 +2,8 @@ import React from 'react';
 import './Items.css';
 
 const items = [
-    { id: 1, name: 'Branded Shirts', image: 'photo1.jpg' },
-    { id: 2, name: 'Formal Shirts', image: 'photo2.jpg' },
+    { id: 1, name: 'Formal Shirts', image: 'formalshirt.jpg' },
+    { id: 2, name: 'Ladies Chord Sets', image: 'chordset.jpg' },
     { id: 3, name: 'Accessories', image: 'photo3.jpg' },
     { id: 4, name: 'Polo T-shirts', image: 'photo4.jpg' },
     { id: 5, name: 'Denim Jeans', image: 'denimjeans.jpg' },

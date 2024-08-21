@@ -25,7 +25,7 @@ const Contact = () => {
                             </div>
                             <div className='flexColStart detail'>
                                 <span className='primaryText'> Call  </span>
-                                <span> 7795959702</span>
+                                <span> 7892966366 </span>
                                
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                             </div>
                             <div className='flexColStart detail'>
                                 <span className='primaryText'> WhatsApp  </span>
-                                <span> 7795959702 / 8011001813</span>
+                                <span> 7892966366 </span>
                                
                             </div>
                         </div>
