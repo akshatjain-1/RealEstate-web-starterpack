@@ -29,12 +29,12 @@ const Header = () => {
             <div className='flexCenter h-menu'
             style={getMenuStyles(menuOpened)} 
             >
-                <span>
+                {/*<span>
                 Home
                 </span>
-                <span>About</span> {/* Modified code */}
+                <span>About</span> 
 
-                <span>Services</span>
+                <span>Services</span> */}
                 <button className='button'>
                 <Link to ='/contact-us'>Contact</Link>
                 </button>

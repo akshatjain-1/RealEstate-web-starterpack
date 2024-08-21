@@ -6,6 +6,10 @@
     color: var(--white);
 }
 
+.c-container span{
+    display: flex;
+}
+
 .c-contaioner{
     justify-content: space-between;
 
@@ -71,27 +75,79 @@
     scale: 0.8;
 }
 
-@media(max-Width: 1024px){
-    .c-container{
+@media (min-width: 768px) {
+    .main-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-form-section, .contact-info-section {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .c-container {
         flex-direction: column;
     }
-    .c-right{
+    .c-right {
         justify-content: center;
     }
-    .contactModes{
-      
+    .contactModes {
         justify-content: center;
     }
-    .row{
+    .row {
         flex-direction: column;
         width: 100%;
     }
-    .mode{
+    .mode {
         width: 100%;
         flex-direction: column;
         justify-content: center;
     }
-    .c-left{
+    .c-left {
         justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-content {
+        padding: 10px;
+    }
+
+    .contact-form-section, .contact-info-section {
+        width: 100%;
+    }
+
+    .form-group input, .form-group textarea {
+        padding: 8px;
+    }
+
+    .submit-button {
+        padding: 10px;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .contact-form-section h2, .contact-info-section h2 {
+        font-size: 1.5em;
+    }
+
+    .form-group label {
+        font-size: 1em;
+    }
+
+    .form-group input, .form-group textarea {
+        font-size: 1em;
+    }
+
+    .submit-button {
+        font-size: 1em;
     }
 }

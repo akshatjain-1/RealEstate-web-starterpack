@@ -97,3 +97,21 @@ body {
         width: 45%;
     }
 }
+
+@media (max-width: 767px) {
+    .main-content {
+        padding: 10px;
+    }
+
+    .contact-form-section, .contact-info-section {
+        width: 100%;
+    }
+
+    .form-group input, .form-group textarea {
+        padding: 8px;
+    }
+
+    .submit-button {
+        padding: 10px;
+    }
+}
