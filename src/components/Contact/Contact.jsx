@@ -40,7 +40,7 @@ const Contact = () => {
                             </div>
                             <div className='flexColStart detail'>
                                 <span className='primaryText'> Mail  </span>
-                                <span> justshop4568@gmail.com </span>
+                                <span> contact@justshop.co.in </span>
                                
                             </div>
                         </div>
