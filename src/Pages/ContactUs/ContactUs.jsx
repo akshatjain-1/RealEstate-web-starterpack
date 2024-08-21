@@ -91,8 +91,8 @@ const ContactUs = () => {
                 </section>
                 <section className="contact-info-section">
                     <h2>Contact Information</h2>
-                    <p>Email: contact@example.com</p>
-                    <p>Phone: 8011001813</p>
+                    <p>Email: contact@justshop.co.in / info@justshop.co.in</p>
+                    <p>Phone: 8011001813 </p>
                     <p>Address: Plot No.6, Near Swathi Restraunt, Rajajinagar, Bengaluru </p>
                 </section>
             </main>

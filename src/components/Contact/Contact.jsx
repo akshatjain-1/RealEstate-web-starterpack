@@ -11,8 +11,8 @@ const Contact = () => {
             {/* Left Section */}
 
             <div className='flexColStart c-left'>
-                <span className='orangeText'> Our contacts</span>
-                <span className='primaryText'>Contact us</span>
+                
+                <span className='primaryText' size={500}>Contact us</span>
                 <span className='myText'> We are always ready to assist you.</span>
 
                 <div className='flexColStart contactModes'>
@@ -25,11 +25,11 @@ const Contact = () => {
                             </div>
                             <div className='flexColStart detail'>
                                 <span className='primaryText'> Call  </span>
-                                <span> 8011001813</span>
+                                <span> 7795959702</span>
                                
                             </div>
                         </div>
-                        <div className='flexColStart button'> Call Now</div>
+                        
                     </div>
 
                     {/* Second mode */}
@@ -39,12 +39,12 @@ const Contact = () => {
                                 <BsFillChatDotsFill size={18}/>
                             </div>
                             <div className='flexColStart detail'>
-                                <span className='primaryText'> Chat  </span>
-                                <span> 8011001813</span>
+                                <span className='primaryText'> Mail  </span>
+                                <span> justshop4568@gmail.com </span>
                                
                             </div>
                         </div>
-                        <div className='flexColStart button'> Chat Now</div>
+                       
                     </div>
                 </div>
                     
@@ -57,12 +57,12 @@ const Contact = () => {
                                 <BsFillChatDotsFill size={18}/>
                             </div>
                             <div className='flexColStart detail'>
-                                <span className='primaryText'> Connect  </span>
-                                <span> 8011001813</span>
+                                <span className='primaryText'> WhatsApp  </span>
+                                <span> 7795959702 / 8011001813</span>
                                
                             </div>
                         </div>
-                        <div className='flexColStart button'> ++++ </div>
+                     
                     </div>
 
                     {/* Second mode */}
@@ -72,12 +72,16 @@ const Contact = () => {
                                 <BsFillChatDotsFill size={18}/>
                             </div>
                             <div className='flexColStart detail'>
-                                <span className='primaryText'> Chat  </span>
-                                <span> 8011001813</span>
+                                <span className='primaryText'> Socials  </span>
+                                <span> <img src='instagram_logo.png' width={100}>
+                                
+                                
+                                     </img>
+                                     </span>
                                
                             </div>
                         </div>
-                        <div className='flexColStart button'> Chat Now</div>
+                        
                     </div>
                 </div>
             </div>

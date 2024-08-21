@@ -28,12 +28,15 @@ function App() {
               <GetStarted />
               <Contact />
               <Footer />
+             
             </>
           } />
           
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<Terms />} />
           <Route path = "/contact-us" element = {<ContactUs/>} />
+          
+          
         </Routes>
         
       </div>
