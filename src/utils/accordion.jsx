@@ -3,21 +3,21 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Brand Heritage and Authenticity",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "At JUST SHOP, we proudly carry a curated selection of renowned brands with rich histories and authentic origins. Our commitment to authenticity means you can trust that every purchase is genuine, reflecting the high standards and unique stories behind each brand..",
   },
   {
     icon: <MdCancel />,
     heading: "Prevent unstable prices",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "We offer top-quality branded clothing at prices that deliver unbeatable value for money. We strive to provide premium fashion accessible by keeping our prices competitive and offering regular promotions and discounts. Discover exceptional deals and enjoy the confidence that comes with getting more for less.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "Exceptional Customer Service",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "We are dedicated to providing an unparalleled shopping experience with our exceptional customer service. Our knowledgeable and friendly team is always here to assist you, whether you need personalized styling advice, have questions about our products, or require help with your order. From the moment you enter our store or visit our website, our goal is to ensure that you feel valued and supported, making your shopping experience as enjoyable and effortless as possible.",
   },
 ];
 export default data;

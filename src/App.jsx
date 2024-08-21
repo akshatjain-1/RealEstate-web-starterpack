@@ -12,6 +12,7 @@ import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 import Terms from './Pages/Terms/Terms';
 import './App.css';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import Items from './components/Items/Items';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
               <Header />
               <Hero />
               
-              <Products />
+              
+              <Items/>
               <Value />
               <GetStarted />
               <Contact />

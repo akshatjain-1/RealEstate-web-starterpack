@@ -1,10 +1,10 @@
 .g-wrapper{
-    background-color: rgb(255, 145, 0);
+    background-color: #f3dccd;
 }
 
 .inner-container{
     gap: 1.5rem;
-    background: rgb(153, 77, 28);
+    background: #e8b48e;
     padding:  2rem;
     border-radius: 10px;
     border: 6px solid rgb(107, 36, 12);

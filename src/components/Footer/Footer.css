@@ -32,7 +32,7 @@
   .footer-links {
     display: flex;
     gap: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
   }
   
   .footer-links a {
@@ -69,7 +69,8 @@
   }
   
   .f-socials img {
-    width: 15px;
+    width: 25px;
+    justify-items: center;
   }
   
   .footer-bottom {

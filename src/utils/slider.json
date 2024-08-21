@@ -3,25 +3,25 @@
     "name": "Jeans",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./jeans.jpg"
+    "image": "./photo1.jpg"
   },
   {
     "name": "Kurti",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./pic2.jpg"
+    "image": "./photo2.jpg"
   },
   {
     "name": "Uppers",
     "price": "35,853",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./zara.jpg"
+    "image": "./photo3.jpg"
   },
   {
     "name": "Sweatshirts",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./tommy.jpg"
+    "image": "./photo4.jpg"
   },
   {
     "name": "Asatti Garden City",

@@ -39,10 +39,10 @@
 }
 
 .p-card:hover{
-    transform: scale(1.1);
+    transform: scale(1);
     cursor: pointer;
     box-shadow: 0 0 10px rgba(143, 0, 0, 0.932);
-    background: linear-gradient(180deg, rgb(107, 36, 12), rgb(228, 143, 69));
+    background: linear-gradient(90deg, rgb(107, 36, 12), rgb(228, 143, 69));
 }
 
 .swiper-horizontal{

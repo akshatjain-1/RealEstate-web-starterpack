@@ -11,9 +11,14 @@ const Footer = () => {
           <div className='flexCenter f-socials'>
             <h2> Follow Us</h2>
             <div className='f-links'>
-              <a href='#'> Facebook<img src='facebook_logo.png' alt='Facebook' /></a>
-              <a href='#'>Instagram<img src='instagram_logo.png' alt='Instagram' /></a>
-            </div>
+              <a href='https://www.facebook.com/profile.php?id=61564394932905&mibextid=ZbWKwL'><img src='facebook_logo.png' alt='Facebook' /></a>
+              
+
+            
+              <a href=''><img src='instagram_logo.png' alt='Instagram' /></a>
+              </div>
+            
+            
             
           </div>
         </div>

@@ -29,15 +29,10 @@ const Value = () => {
             {/* Right Section */}
 
             <div className='flexColStart v-right'>
-                <span className='orangeText'>Our values
+                <span className='orangeText'>Our Core values :
                 </span>
-                <span className='primaryText'>Values we give to your
-                </span>
-                <span className='secondaryText'>
-                We are always ready to help providing the best choices for you.
-                <br/>
-                We believe in quality and customer satisfaction.
-                </span>
+               
+               
 
                 
 
@@ -62,14 +57,14 @@ const Value = () => {
                                         }
                                     </AccordionItemState>
                                         <div className='flexCenter icon'>{item.icon}</div>
-                                        <span className='myText'>{item.heading}</span>
+                                        <span className='thisText'>{item.heading}</span>
                                         <div className='flexCenter icon'><MdOutlineArrowDropDown size={20}/></div>
                                     </AccordionItemButton>
 
                                 </AccordionItemHeading>
 
                                 <AccordionItemPanel>
-                                    <p className='myText'>{item.detail}</p>
+                                    <p className='thisText'>{item.detail}</p>
                                 </AccordionItemPanel>
 
                             </AccordionItem>
